@@ -1,0 +1,27 @@
+###############################################################################
+#                                                                             #
+# IAR Assembler V1.40.1.50106 for STM8                  14/Jul/2016  15:48:13 #
+# Copyright 2010-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Source file  =  D:\Dropbox\osa\port\stm8\osa_stm8_iar.s                  #
+#    Command line =  D:\Dropbox\osa\port\stm8\osa_stm8_iar.s -M<> -r -ld      #
+#                    D:\Dropbox\STM8\EAT_MCU\Debug\List\ --code_model small   #
+#                    --data_model medium -o D:\Dropbox\STM8\EAT_MCU\Debug\Obj #
+#                    \                                                        #
+#    List file    =  D:\Dropbox\STM8\EAT_MCU\Debug\List\osa_stm8_iar.lst      #
+#    Object file  =  D:\Dropbox\STM8\EAT_MCU\Debug\Obj\osa_stm8_iar.o         #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+##############################################################################
+# Module ATOMPORTASM                                                         #
+##############################################################################
+
+ 
+ 52 bytes in section .near_func.text  , module ATOMPORTASM
+ 
+ 52 bytes of CODE memory  in module ATOMPORTASM
+
+Errors: none
+Warnings: none

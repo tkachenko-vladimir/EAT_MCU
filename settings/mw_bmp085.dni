@@ -1,0 +1,113 @@
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=1402688927
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=char[40]	3	0
+Fmt1=u8[64]	4	0
+[watch_formats]
+Fmt0={W}0:MY_NBR	3	0
+Fmt1={W}0:Temp	3	0
+Fmt2={W}0:Tm	3	0
+Fmt3={W}0:asd	1	0
+Fmt4={W}0:bit_cnt	3	0
+Fmt5={W}0:gsm_busy	3	0
+Fmt6={W}0:in_length	3	0
+Fmt7={W}0:insms_f	3	0
+Fmt8={W}0:ir_cmd	4	0
+Fmt9={W}0:mwBuffer_pos	3	0
+Fmt10={W}0:pos1	3	0
+Fmt11={W}0:result	3	0
+Fmt12={W}0:rssi	3	0
+Fmt13={W}0:simcom_on	3	0
+Fmt14={W}0:sms_q_p1	3	0
+Fmt15={W}0:sms_q_p2	3	0
+Fmt16={W}0:smsread_cnt	3	0
+Fmt17={W}0:val	1	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\MYLIB\sh.c}.166.11" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\MYLIB\sh.c}.184.7" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\sh.c}.6.1" 0 0 0 0 "" 0 ""
+Count=3
+[Aliases]
+Count=0
+SuppressDialog=0
